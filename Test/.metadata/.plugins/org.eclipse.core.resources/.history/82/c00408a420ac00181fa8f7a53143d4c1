@@ -1,0 +1,13 @@
+package FirstHeadDesign.Strategy;
+
+public interface QuackBehavior {
+	FlyBehavior flyBehavoir;
+	QuackBehavior quackBehavoir;
+	void swim();
+	void display();
+	void performQuack();
+	void performFly();
+	void setFlyBehavoir();
+	void setQuackBehavoir();
+
+}

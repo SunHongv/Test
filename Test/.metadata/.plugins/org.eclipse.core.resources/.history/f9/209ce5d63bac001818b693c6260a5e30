@@ -1,0 +1,10 @@
+package FirstHeadDesign.Observe;
+
+public class ObserveTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

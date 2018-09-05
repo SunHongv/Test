@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+/**
+ * @author samsung
+ *	观察者模式
+ */
+package FirstHeadDesign.Observe;

@@ -1,0 +1,11 @@
+package FirstHeadDesign.Factory;
+
+public abstract class PizzStore {
+	public abstract Pizz createPizz();
+	Pizz pizz=null;
+	public Pizz OderPizz(String type) {
+		pizz=createPizz();
+		
+	}
+
+}

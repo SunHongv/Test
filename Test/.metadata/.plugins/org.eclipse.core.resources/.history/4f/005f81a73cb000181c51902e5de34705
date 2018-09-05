@@ -1,0 +1,17 @@
+package FirstHeadDesign.Iterator;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayMenue {
+	List<Menue> list=new ArrayList<>();
+	Menue[] array=new Menue[6];
+	public ArrayMenue() {
+	for(int i=0;i<6;i++) {
+		Menue menue=new Menue("menue"+i,i+"");
+		array[i]=menue;
+		
+	}	
+	}
+
+}

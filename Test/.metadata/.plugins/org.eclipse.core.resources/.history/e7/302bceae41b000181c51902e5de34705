@@ -1,0 +1,21 @@
+package FirstHeadDesign.Iterator;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class IteratorTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ListMenue lm=new ListMenue();
+		ArrayMenue am=new ArrayMenue();
+		MyIterator itr=lm.createIterator();
+		while(itr.hasNext()) {
+			Menue m=itr.next();
+			System.out.println(m.name+" "+m.value);
+		}
+		
+	}
+
+}

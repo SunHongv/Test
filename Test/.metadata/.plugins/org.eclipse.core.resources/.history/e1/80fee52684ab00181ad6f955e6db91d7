@@ -1,0 +1,38 @@
+package ACM;
+/*
+ * 给定亮哥字符串,求出这两个字符串中最长的公共子序列的长度。
+ * */
+public class DP_02LCS {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n=4 ;
+		int m=4 ;
+		String s="abcd";
+		String t="becd";
+		solve(s,t);
+
+	}
+
+	private static void solve(String s, String t) {
+		// TODO Auto-generated method stub
+		char[] chs=new char[s.length()];
+		char[] cht=new char[t.length()];
+	s.getChars(0, s.length(), chs, 0);
+	t.getChars(0, t.length(), cht, 0);
+	int[][] dp=new int[chs.length+1][cht.length+1];
+	for(int i=0;i<chs.length;i++) {
+		for(int j=0;j<cht.length;j++) {
+			if(chs[i]==cht[i]) {
+				dp[i+1][j+1]=dp[i][j]+1;
+			}
+			
+			
+			
+		}
+		
+		
+	}
+	}
+
+}

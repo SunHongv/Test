@@ -1,0 +1,41 @@
+package ACM;
+/*
+ * 有n个重量和价值分别为wi,vi的物品。从这些物品中挑选出总重量不超过W的物品，求所有挑选方案中价值总和的最大值。
+ *
+ * */
+public class DP_01Package {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			int n=4;
+			int[][] wv= {{2,3},{1,2},{3,4},{2,2}};
+			int[] weight= {2,1,3,4};
+			int[] value= {3,2,4,2};
+			int W=5;
+		int[][] dp=new int[4][4];
+		for(int i=n;i>=0;i--) {// i是指从第i个开始，重量不大于j的 价值
+			for(int j=0;j<n;j++) {
+				if(j<weight[i]) {
+					dp[i][j]=dp[i+1][j];
+				}else {
+					dp[i][j]=max(dp[i+1][j],dp[i][j-weight[i]]+value[i]);
+				}
+				
+				
+				
+				
+				
+			}
+			
+		}
+			
+			
+			
+	}
+
+	private static int max(int i, int j) {
+		// TODO Auto-generated method stub
+		return i>j?i:j;
+	}
+
+}

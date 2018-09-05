@@ -1,0 +1,11 @@
+package FirstHeadDesign.Decoration;
+
+public class Dec_Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Coffe coffe=new Coffe(drink);
+
+	}
+
+}

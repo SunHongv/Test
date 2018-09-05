@@ -1,0 +1,7 @@
+package FirstHeadDesign.Strategy;
+
+public interface QuackBehavior {
+	FlyBehavior flyBehavoir;
+	QuackBehavior quackBehavoir;
+
+}

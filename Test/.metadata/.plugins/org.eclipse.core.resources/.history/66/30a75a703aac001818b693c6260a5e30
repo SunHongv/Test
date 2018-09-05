@@ -1,0 +1,11 @@
+package FirstHeadDesign.Observe;
+
+public class Board implements Observer{
+
+	@Override
+	public void update(int tem, int hum) {
+		// TODO Auto-generated method stub
+		System.out.println(tem+"  "+hum);
+	}
+
+}

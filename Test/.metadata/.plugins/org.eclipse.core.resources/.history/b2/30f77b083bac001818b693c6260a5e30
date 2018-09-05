@@ -1,0 +1,19 @@
+package FirstHeadDesign.Observe;
+
+public class Board implements Observer{
+	Subject sub=new WeatherData();
+	public Board() {
+		// TODO Auto-generated constructor stub
+		sub.addObserver(this);
+	}
+	
+	
+	
+	
+	@Override
+	public void update(int tem, int hum) {
+		// TODO Auto-generated method stub
+		System.out.println(tem+"  "+hum);
+	}
+
+}

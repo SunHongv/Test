@@ -1,0 +1,5 @@
+package FirstHeadDesign.Decoration;
+
+public abstract class Drink {
+	public String description="|Drink";
+}

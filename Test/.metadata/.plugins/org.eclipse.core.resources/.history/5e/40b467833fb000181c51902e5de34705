@@ -1,0 +1,8 @@
+package FirstHeadDesign.Iterator;
+
+public interface MyIterator {
+	void hasNext();
+	void next();
+	void remove();
+
+}

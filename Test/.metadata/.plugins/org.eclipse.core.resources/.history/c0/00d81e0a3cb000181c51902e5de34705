@@ -1,0 +1,11 @@
+package FirstHeadDesign.Iterator;
+
+public class Menue {
+private String name;
+private String value;
+public Menue(String name,String value) {
+	this.name=name;
+	this.value=value;
+	
+}
+}

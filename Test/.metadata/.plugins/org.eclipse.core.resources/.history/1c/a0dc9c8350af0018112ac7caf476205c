@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author samsung
+ *工厂模式 
+ *利用抽象方法抽象类，构建一个框架，由子类去实现
+ */
+package FirstHeadDesign.Factory;

@@ -1,0 +1,27 @@
+package FirstHeadDesign.Observe;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class WeatherData implements Subject{
+	List<Observer> list=new ArrayList<>();
+
+	@Override
+	public void addObserver(Observer o) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void removeObserver(Observer o) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void notifyObservers() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

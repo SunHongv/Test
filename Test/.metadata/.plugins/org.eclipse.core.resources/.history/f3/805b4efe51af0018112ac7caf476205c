@@ -1,0 +1,12 @@
+package FirstHeadDesign.Factory;
+
+public class BeijingPizzStore extends PizzStore{
+
+	@Override
+	protected Pizz createPizz() {
+		// TODO Auto-generated method stub
+		pizz=new ChizzPizz();
+		return pizz;
+	}
+
+}

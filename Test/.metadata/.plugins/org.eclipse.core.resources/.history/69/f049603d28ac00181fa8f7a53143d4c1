@@ -1,0 +1,16 @@
+package FirstHeadDesign.Strategy;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Duck duck = new MallardDuck();
+		duck.display();
+
+		duck.setFlyBehavoir(new FlyWithWings());
+		duck.setQuackBehavoir(new Squeak());
+		duck.display();
+
+	}
+
+}

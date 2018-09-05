@@ -1,0 +1,7 @@
+package FirstHeadDesign.Decoration;
+
+public abstract class Drink {
+	public String description="Drink";
+	public abstract String  getDescription();
+	public abstract int cost();
+}

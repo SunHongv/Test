@@ -1,0 +1,7 @@
+package FirstHeadDesign.Observe;
+
+public interface Observer {
+	
+
+	void update();
+}

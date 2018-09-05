@@ -1,0 +1,19 @@
+package FirstHeadDesign.Strategy;
+
+public abstract class Duck {
+	FlyBehavior flyBehavoir;
+	QuackBehavior quackBehavoir;
+	public  void swim() {
+		System.out.println("Swim");
+		
+	};
+	public abstract void display();
+	public abstract void performQuack();
+	public abstract void performFly();
+	public  void setFlyBehavoir(FlyBehavior fly) {
+		flyBehavoir=fly;
+	};
+	public  void setQuackBehavoir(QuackBehavior quack) {
+		quackBehavoir=quack;
+	};
+}

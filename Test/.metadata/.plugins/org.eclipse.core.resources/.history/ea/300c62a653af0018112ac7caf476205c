@@ -1,0 +1,17 @@
+package FirstHeadDesign.Factory;
+
+public class BeijingCheesePizz extends Pizz {
+
+	@Override
+	public void prepare() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void box() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

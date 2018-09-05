@@ -1,0 +1,10 @@
+package FirstHeadDesign.Iterator;
+
+import java.util.Iterator;
+
+public interface MyIterator{
+	Boolean hasNext();
+	void next();
+	void remove();
+
+}

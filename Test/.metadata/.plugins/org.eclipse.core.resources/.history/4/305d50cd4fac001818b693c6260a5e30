@@ -1,0 +1,21 @@
+package FirstHeadDesign.Decoration;
+
+public class Water extends Drink{
+
+	public Water() {
+		this.description="Water";
+		this.cost=5;
+	}
+	@Override
+	public String getDescription() {
+		// TODO Auto-generated method stub
+		return description;
+	}
+
+	@Override
+	public int cost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

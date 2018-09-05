@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="javax.xml.validation.SchemaFactoryConfigurationError"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="FirstHeadDesign.Strategy.FlyBehavior"/>
+<fullyQualifiedTypeName name="FirstHeadDesign.Strategy.QuackBehavior"/>
+<fullyQualifiedTypeName name="FirstHeadDesign.Strategy.FlyWithNoWings"/>
+<fullyQualifiedTypeName name="FirstHeadDesign.Strategy.Quack"/>
+<fullyQualifiedTypeName name="FirstHeadDesign.Strategy.MallardDuck"/>
+<fullyQualifiedTypeName name="FirstHeadDesign.Strategy.FlyWithWings"/>
+<fullyQualifiedTypeName name="FirstHeadDesign.Strategy.Squeak"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="FirstHeadDesign.Factory.BeijingPizzStore"/>
+<fullyQualifiedTypeName name="FirstHeadDesign.Iterator.IteratorTest"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="FirstHeadDesign.Iterator.ArrayIterator"/>
+<fullyQualifiedTypeName name="FirstHeadDesign.Iterator.ListMenue"/>
+<fullyQualifiedTypeName name="FirstHeadDesign.Iterator.ArrayMenue"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="FirstHeadDesign.Iterator.MyIterator"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+</qualifiedTypeNameHistroy>
